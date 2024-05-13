@@ -1,0 +1,121 @@
+body {
+    background-color: #eaeded;
+}
+
+.barralogo {
+    background-color: #222f3e ;
+    height: 100px;
+}
+
+.barralogo img{
+    height: 100%;
+}
+
+.navbar {
+    background-color: #364759 ;
+    color: white;
+
+}
+
+#All {
+    margin-left: 4px;
+}
+.navbar span{
+    margin-right: 15px;
+    size: 15px;
+}
+
+
+.orange {
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.orange h3 {
+    background-color: #f56600;
+    color: white;
+}
+.sfondoimg {
+    background-image: url(./immagini/bg-image.png);
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.contenitore {
+    margin-top: 20px;
+    background-color: white;
+    min-height: 400px;
+
+}
+
+.testotop {
+    display: flex;
+    align-items: flex-start;
+}
+#Shopnow {
+    color: #007185;
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+.immagini {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.immagini img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 35px;
+    margin-top: 15px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: #222f3e;
+}
+
+.contenitore2 {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.cardbox {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+}
+
+.titolo {
+    height: 50px;
+    text-align: center;
+    size: 30px;
+}
+.corpo {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+.immagini-card {
+   max-width: 250px;
+    max-height: 150px;
+    text-align: center;
+}
+
+.immagini-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    color: #007185;
+}
